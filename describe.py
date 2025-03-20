@@ -108,7 +108,7 @@ class csvStats:
 
 if __name__ == '__main__':
     if len(sys.argv) != 2:
-        print("Usage: describe.[extension].py <archivo_csv>")
+        print("Usage: describe.py <archivo_csv>")
     else:
         filename = sys.argv[1]
         csv_stats = csvStats(filename)
